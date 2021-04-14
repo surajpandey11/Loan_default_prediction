@@ -14,4 +14,9 @@ Defaulting on a loan will cause a substantial and lasting drop in the debtor's c
 The loan is one of the most important products of the banking. All the banks are trying to figure out effective business strategies to persuade customers to apply their loans. However, there are some customers behave negatively after their application are approved.
 
 
+# Approach
+1) Engineered a new class of attributes known as Decayed Field variables and developed out-of-pattern variables on historical loan and bureau data to identify risky customers and strengthen the underwriting process
+2) Performed missing value imputation using KNN-Imputer, implemented SMOTE boosting to oversample the minority class observations, and carried out Hyperparameter tuning using Bayesian optimization to come up with the best model
+3) Obtained Model Reason Codes(MRCs) by leveraging the novel concept of SHAP values and SHAP charts such as summary, interaction, and force plots to come up with the best explanation for model predictions
+4) Developed an Xgboost model based on a binary classification model to predict loan defaulters and obtained the AUC-ROC score of 0.92 on validation data
 
